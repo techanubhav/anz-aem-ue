@@ -31,6 +31,10 @@
             {
               "name": "Feature",
               "value": "feature"
+            },
+            {
+              "name": "Teaser",
+              "value": "teaser"
             }
           ]
         }
