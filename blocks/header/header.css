@@ -145,7 +145,7 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 160px;
   height: auto;
 }
 
@@ -166,7 +166,7 @@ header nav[aria-expanded='true'] .nav-sections {
 header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
-  font-size: var(--body-font-size-s);
+  font-size: var(--body-font-size-m);
 }
 
 header nav .nav-sections ul > li {
@@ -221,12 +221,13 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections ul {
     display: flex;
     gap: 24px;
-    margin: 0;
+    margin-left: 20px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
+    margin: 10px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
