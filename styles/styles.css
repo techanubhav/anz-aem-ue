@@ -206,9 +206,13 @@ button:disabled:hover {
 
 a.button.secondary,
 button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
-  color: var(--text-color);
+  background-color: #fff;
+  border: 2px solid #006bde;
+  color: #006bde;
+}
+
+a.button.secondary:hover {
+  background-color: #d7d4d4;
 }
 
 main img {
