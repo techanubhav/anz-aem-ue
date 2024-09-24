@@ -262,3 +262,40 @@ main .section.highlight {
   margin-top: -180px;
   z-index: 1;
 }
+
+main .section.feature {
+  background-color: var(--light-color);
+  padding: 40px 0;
+  margin: 0;
+}
+
+main .section.feature .default-content-wrapper {
+  text-align: center;
+}
+
+main .section.feature strong {
+  color: #16164C;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+}
+
+main .section.feature ul {
+  list-style-type: none; /* Remove default bullet points */
+  /* padding: 0; */
+}
+
+main .section.feature ul li {
+  position: relative;
+  padding-left: 25px; /* Add space for the tick */
+  margin-bottom: 10px; /* Space between list items */
+}
+
+main .section.feature ul li::before {
+  content: '✓'; /* Tick mark */
+  position: absolute;
+  left: 0; /* Position tick to the left of the list item */
+  top: 0;
+  color: green; /* Tick color */
+  font-size: 20px; /* Adjust tick size */
+}
