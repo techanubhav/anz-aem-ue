@@ -299,3 +299,24 @@ main .section.feature ul li::before {
   color: green; /* Tick color */
   font-size: 20px; /* Adjust tick size */
 }
+
+main .section.teaser .columns {
+  background-color: #fcfcfc;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+main .section.teaser img {
+  border-radius: 10px;
+}
+
+main .section.teaser .columns > div > div {
+  padding: 10px;
+}
+
+main .section.teaser strong {
+  color: #006bde;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 3.5rem;
+}

@@ -1,20 +1,48 @@
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  background-color: #006bde;
+  font-size: var(--body-font-size-s);
+  color: #fff;
+}
+
+footer a:any-link {
+  color: #fff;
 }
 
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  padding: 40px 24px 24px 24px;
 }
 
-footer .footer p {
-  margin: 0;
+footer .footer .columns img {
+  width: auto;
+  margin-bottom: 30px;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .footer .columns > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+footer .footer ul {
+  list-style-type: none;
+}
+
+footer .footer ul li {
+  position: relative;
+  /* padding-left: 25px; Add space for the tick */
+  margin-bottom: 20px; /* Space between list items */
+}
+
+@media (width <= 900px) {
+  footer .footer .columns img {
+    width: 100%;
+  }
+
+  footer .footer .columns > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
