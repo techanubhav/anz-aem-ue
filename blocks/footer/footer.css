@@ -35,6 +35,10 @@ footer .footer ul li {
   margin-bottom: 20px; /* Space between list items */
 }
 
+footer .feature {
+  background-color: #fff;
+}
+
 @media (width <= 900px) {
   footer .footer .columns img {
     width: 100%;

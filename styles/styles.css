@@ -265,7 +265,7 @@ main .section.highlight {
 
 main .section.feature {
   background-color: var(--light-color);
-  padding: 40px 0;
+  padding: 100px 0;
   margin: 0;
 }
 
